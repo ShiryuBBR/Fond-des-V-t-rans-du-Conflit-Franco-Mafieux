@@ -14,10 +14,13 @@
     }
 
     &__nav {
-        display: flex;
+        display: none;
         justify-content: center ;
         gap: 60px;
         flex-grow: 1;
         align-items: center;
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
+        }
     }
 }

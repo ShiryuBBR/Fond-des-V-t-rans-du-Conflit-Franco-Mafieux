@@ -1,16 +1,23 @@
 .hero-section {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('/images/image.png');
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 222px 222px 222px 122px;
+    background-position: center;
+    padding: 152px 0;
     display: flex;
+    @media screen and (min-width: $bp-tablet) {
+            padding: 232px 0;
+        }
 
     &__title {
         color: var(--color-base);
-        font-size: 48px;
+        font-size: 32px;
         font-weight: 800;
         text-align: left;
         margin: 0;
         max-width: 700px;
-
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 48px;
+        }
     }
 }

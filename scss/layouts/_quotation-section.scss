@@ -3,10 +3,13 @@
     &__list {
         padding: 16px;
         background-color: darkgray;
-        width: 70%;
+        width: 90%;
         height: 452px;
         border-radius: 16px;
         overflow-y: scroll;
+        @media screen and (min-width: $bp-desktop) {
+            width: 70%;
+        }
     }
 
     &__card {
@@ -16,7 +19,11 @@
     }
 
     &__img {
+        display: none;
         width: 200px;
         height: 200px;
+        @media screen and (min-width: $bp-desktop) {
+            display: block;
+        }
     }
 }

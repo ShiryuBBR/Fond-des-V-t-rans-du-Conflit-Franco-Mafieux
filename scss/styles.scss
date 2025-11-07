@@ -1,4 +1,5 @@
 @import './base';
+@import './utils/variable';
 @import './utils/utils';
 @import './layouts/header';
 @import './components/link';
@@ -8,5 +9,4 @@
 @import './layouts/information-section';
 @import './layouts/veteran-section';
 @import './layouts/history-section';
-@import './utils/variable';
 @import './layouts/quotation-section';
