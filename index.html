@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fond des Vétérans du Conflit Franco-Mafieux</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <img
+            class="header__logo"
+            src="./images/header-logo.jpg"
+            alt="header-logo"
+          />
+          <nav class="header__nav">
+            <a class="link" href="#about">О нас</a>
+            <a class="link" href="#history">История</a>
+            <a class="link" href="#veterans">Ветераны</a>
+            <a class="link" href="#quote">Цитаты</a>
+          </nav>
+          <button class="button" type="button">Поддержать</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-section__title">
+            Фонд помощи ветеранам франко-мафиозного сражения
+          </h1>
+        </div>
+      </section>
+      <section class="information-section" id="about">
+        <div class="container information-section__container">
+          <div class="information-section__top">
+            <div class="text-container">
+              <h1 class="section-title">О нас</h1>
+              <p class="information-section__text">
+                Фонд помощи ветеранам франко-мафиозного сражения был основан в
+                1999 году после трагических событий, в ходе которых Жан Пьер
+                Порнолев лишился ног и, возможно, части достоинства. Мы не
+                просто помогаем ветеранам. Мы поднимаем их на ноги. <br />
+                (не буквально).
+              </p>
+            </div>
+            <img
+              class="information-section__img"
+              src="./images/meme-polnaref1.jpg"
+              alt="meme-polnaref1"
+            />
+          </div>
+          <div class="information-section__bottom">
+            <img
+              class="information-section__img"
+              src="./images/meme-polnaref2.jpg"
+              alt="meme-polnaref2"
+            />
+            <p class="information-section__text">
+              Наша организация позиционирует себя как дочерний проект Фонда
+              Спидвагона. По крайней мере, письмо с запросом на партнёрство было
+              отправлено в штаб-квартиру фонда спидвагона по ватсапу. Несмотря
+              на это, по неизвестным причинам финансовая помощь от фонда
+              Спидвагона так и не поступила. Фонд держиться на пожертвованиях от
+              самого Порнолева
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="history-section" id="history">
+        <div class="container">
+          <h1 class="section-title">История</h1>
+          <div class="history-section__timeline-info">
+            <p>1999</p>
+            <p>∞</p>
+            <p>2025</p>
+          </div>
+          <div class="history-section__timeline">
+            <button
+              class="history-section__timeline-dott"
+              data-index="0"
+            ></button>
+            <button
+              class="history-section__timeline-dott"
+              data-index="1"
+            ></button>
+            <button
+              class="history-section__timeline-dott"
+              data-index="2"
+            ></button>
+            <button
+              class="history-section__timeline-dott"
+              data-index="3"
+            ></button>
+            <button
+              class="history-section__timeline-dott"
+              data-index="4"
+            ></button>
+            <div
+              class="history-section__timeline-container"
+              id="history-text"
+            ></div>
+          </div>
+          <div class="history-section__timeline-info">
+            <p>Сражение</p>
+            <p></p>
+            <p>Наше время</p>
+          </div>
+        </div>
+      </section>
+      <section class="veteran-section" id="veterans">
+        <div class="container">
+          <h1 class="veteran-section__title section-title">Ветераны</h1>
+          <div class="veteran-section__swiper">
+            <button class="veteran-section__button prev" type="button">
+              <svg width="16" height="16">
+                <use href=""></use>
+              </svg>
+            </button>
+            <div class="veteran-section__container swiper-container">
+              <ul class="veteran-section__list swiper-wrapper">
+                <li class="swiper-slide">
+                  <article class="veteran-section__card">
+                    <img
+                      class="veteran-section__img"
+                      src="./images/streetracer.jpg"
+                      alt="streetracer"
+                    />
+                    <div class="veteran-section__card-info">
+                      <h3 class="veteran-section__title">Порнолев</h3>
+                      <p class="veteran-section__text">легенда гонок</p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="veteran-section__card">
+                    <img
+                      class="veteran-section__img"
+                      src="./images/kira.jpg"
+                      alt="streetracer"
+                    />
+                    <div class="veteran-section__card-info">
+                      <h3 class="veteran-section__title">Кирилл</h3>
+                      <p class="veteran-section__text">
+                        Потерял руку (не свою)
+                      </p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="veteran-section__card">
+                    <img
+                      class="veteran-section__img"
+                      src="./images/diavolo.jpg"
+                      alt="streetracer"
+                    />
+                    <div class="veteran-section__card-info">
+                      <h3 class="veteran-section__title">DIAvolo</h3>
+                      <p class="veteran-section__text">
+                        спонсор безногости порнолева
+                      </p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="veteran-section__card">
+                    <img
+                      class="veteran-section__img"
+                      src="./images/chariot.jpg"
+                      alt="streetracer"
+                    />
+                    <div class="veteran-section__card-info">
+                      <h3 class="veteran-section__title">Душа Порнолева</h3>
+                      <p class="veteran-section__text">
+                        Даже его душа сьебалась от него
+                      </p>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <button class="veteran-section__button next" type="button">
+              <svg width="16" height="16">
+                <use href="./image/icons.svg#icon-Arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="quotation-section" id="quote">
+        <div class="container">
+          <h2 class="quotation-section__title section-title">
+            Цитаты спонсоров
+          </h2>
+          <ul class="quotation-section__list">
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+                alt="polnaref"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>
+                  Адьёс, полоумный, твои деньги пойдут в фонд помощи безногим
+                  ветеранам Франко-мафиозного сражения, а номер карты какой?
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/Vadim.jpg"
+                alt="vadim"
+              />
+              <div>
+                <h1>Вадим</h1>
+                <p>Пошел нахуй</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+                alt="polnaref"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>Я не могу ходить</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/Vadim.jpg"
+                alt="vadim"
+              />
+              <div>
+                <h1>Вадим</h1>
+                <p>Нихуя себе, ты гонщик? Можно автограф?</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+                alt="polnaref"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>Нет, меня зовут Жан-Пье</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/Vadim.jpg"
+                alt="vadim"
+              />
+              <div>
+                <h1>Вадим</h1>
+                <p>Жан-Пье? Ты из Вьетнама? Ноги там же, на деревьях?</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+                alt="polnaref"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>Жан-Пьер Порнолев, я не договорил - ты звонок прервал</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/Vadim.jpg"
+                alt="vadim"
+              />
+              <div>
+                <h1>Вадим</h1>
+                <p>
+                  а, я случайно. Думал тест на робота просит указать велосипеды.
+                  Так ты Францу..аэахээ.
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/Vadim.jpg"
+                alt="vadim"
+              />
+              <div>
+                <h1>Вадим</h1>
+                <p>Я не отключался. Мне телефон в рот упал</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>
+                  Погоди... Ты на кладбище? Плита сзади тебя, ты пришёл к нему??
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>
+                  Нет, я здесь сортирую конфеты по оттенкам... Ну... на
+                  могилах... Эта плита?
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>
+                  Ты был знаком с этим человеком!? КАК ОН УМЕР!?! Жоски флешбеки
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>УЭГХэ... Жоски флешбеки кончились</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>Нуу... можно сказать... он застрелился</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>Выёбывался реакцией Стар Платинума и не поймал пулю?</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>Не... Его стрелой убило</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>
+                  Он не смог увернуться от выстрела сделанного из
+                  средневековья!!?.. А ведь когда-то мы с этим человеком спасли
+                  мир от Дыо
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>Чем этот Дыо был опасен?</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>
+                  Нуу... он заразил одну мать и подсадил паразитов паре
+                  человек...
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>То есть вы его просто помыли?</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>Нет, Жотаро убил его ударом в ногу..</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>В твою?)</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>ДА ТЫ ЗАЕБАЛ! Сдались тебе мои ноги?!</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>Сдались) Они же французские)) Разъёб</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>
+                  Лааадно, хочешь я буду шутить про твои гейские наклонности?)
+                </p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img
+                class="quotation-section__img"
+                src="./images/streetracer.jpg"
+              />
+              <div>
+                <h1>Порнолев</h1>
+                <p>Ноо... у меня нет гейских наклонностей..</p>
+              </div>
+            </li>
+            <li class="quotation-section__card">
+              <img class="quotation-section__img" src="./images/Vadim.jpg" />
+              <div>
+                <h1>Вадим</h1>
+                <p>Как и ног)))</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container"></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/history.js"></script>
+  </body>
+</html>

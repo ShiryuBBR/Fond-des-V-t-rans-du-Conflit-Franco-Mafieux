@@ -1,0 +1,22 @@
+.quotation-section {
+    padding-bottom: 64px;
+    &__list {
+        padding: 16px;
+        background-color: darkgray;
+        width: 70%;
+        height: 452px;
+        border-radius: 16px;
+        overflow-y: scroll;
+    }
+
+    &__card {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    &__img {
+        width: 200px;
+        height: 200px;
+    }
+}

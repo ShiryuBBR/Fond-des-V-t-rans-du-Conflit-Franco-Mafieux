@@ -1,0 +1,17 @@
+.button {
+    color: var(--color-base);
+    background-color: var(--color-interact);
+    border-radius: 10px;
+    padding: 14px 24px;
+    cursor: pointer;
+    border-color: var(--color-interact);
+    border: 3px solid var(--color-interact);
+    transition: color, 1s;
+    transition: background-color, 0.3s;
+}
+
+.button:hover {
+    background-color: var(--color-base);
+    color: var(--color-interact);
+    text-decoration: underline
+}

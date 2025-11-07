@@ -1,0 +1,37 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+    color: #222;
+    background-color: #DAD9D7;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
