@@ -29,7 +29,9 @@
             <a class="link" href="#veterans">Ветераны</a>
             <a class="link" href="#quote">Цитаты</a>
           </nav>
-          <button class="button" type="button">Поддержать</button>
+          <button class="button modal-btn-open" type="button">
+            Поддержать
+          </button>
         </div>
       </div>
     </header>
@@ -194,6 +196,81 @@
                 <use href="./image/icons.svg#icon-Arrow"></use>
               </svg>
             </button>
+          </div>
+          <div class="veteran-section__cta">
+            <div class="modal__title">
+              <h1>ПОМОГИ БЕДНЫМ ВЕТЕРАНАМ ФРАНКО-МАФИОЗНОГО СРАЖЕНИЯ!!!</h1>
+              <img
+                class="name-img"
+                src="./images/polnaref-cry.jpg"
+                alt="name"
+              />
+            </div>
+            <form
+              class="modal__form"
+              name="modal__form"
+              autocomplete="off"
+              novalidate
+            >
+              <div class="modal__block">
+                <label class="modal__form-label" for="user-name"
+                  >Номер карты</label
+                >
+                <input
+                  class="modal__form-input"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  placeholder="0000 0000 0000 0000"
+                />
+              </div>
+              <div class="modal__block">
+                <label class="modal__form-label" for="date"
+                  >Действительна до</label
+                >
+                <input
+                  class="modal__form-input modal__form-date"
+                  type="text"
+                  name="month"
+                  id="month"
+                  placeholder="MM"
+                />
+                /
+                <input
+                  class="modal__form-input modal__form-date"
+                  type="text"
+                  name="year"
+                  id="year"
+                  placeholder="YY"
+                />
+              </div>
+
+              <div class="modal__block">
+                <label class="modal__form-label" for="user-email"
+                  >Имя держателя</label
+                >
+                <input
+                  class="modal__form-input"
+                  type="text"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="IVAN IVANOV"
+                />
+              </div>
+              <div class="modal__block">
+                <label class="modal__form-label" for="cvv">CVC2 / CVV2</label>
+                <input
+                  class="modal__form-input cvv2"
+                  type="text"
+                  name="cvv"
+                  id="cvv"
+                  placeholder="123"
+                />
+              </div>
+              <button type="button" class="button__submit button">
+                Пожертвовать
+              </button>
+            </form>
           </div>
         </div>
       </section>
@@ -481,8 +558,82 @@
     <footer>
       <div class="container"></div>
     </footer>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="button modal-btn-close" type="button">✖</button>
+        <div class="modal__title">
+          <h1 class="modal__text">
+            ПОМОГИ БЕДНЫМ ВЕТЕРАНАМ ФРАНКО-МАФИОЗНОГО СРАЖЕНИЯ!!!
+          </h1>
+          <img
+            class="modal__img"
+            src="./images/polnaref-cry.jpg"
+            alt="polnoref-crying"
+          />
+        </div>
+        <form name="modal__form" autocomplete="off" novalidate>
+          <div class="modal__block">
+            <label class="modal__form-label" for="user-name">Номер карты</label>
+            <input
+              class="modal__form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="0000 0000 0000 0000"
+            />
+          </div>
+          <div class="modal__block">
+            <label class="modal__form-label" for="date">Действительна до</label>
+            <div class="modal__form-date-container">
+              <input
+                class="modal__form-input modal__form-date"
+                type="text"
+                name="month"
+                id="month"
+                placeholder="MM"
+              />
+              /
+              <input
+                class="modal__form-input modal__form-date"
+                type="text"
+                name="year"
+                id="year"
+                placeholder="YY"
+              />
+            </div>
+          </div>
+
+          <div class="modal__block">
+            <label class="modal__form-label" for="user-email"
+              >Имя держателя карты</label
+            >
+            <input
+              class="modal__form-input"
+              type="text"
+              name="user-email"
+              id="user-email"
+              placeholder="IVAN IVANOV"
+            />
+          </div>
+          <div class="modal__block">
+            <label class="modal__form-label" for="cvv">CVC2 / CVV2</label>
+            <input
+              class="modal__form-input cvv2"
+              type="text"
+              name="cvv"
+              id="cvv"
+              placeholder="123"
+            />
+          </div>
+          <button type="button" class="button__submit button">
+            Пожертвовать
+          </button>
+        </form>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/modal.js"></script>
     <script src="./js/history.js"></script>
   </body>
 </html>
